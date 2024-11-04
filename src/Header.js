@@ -7,7 +7,7 @@ import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
 import logo  from "./images/logo.png";
 
-
+//start
 function Header() 
 {
     const [{ basket, user }, dispatch] = useStateValue();
